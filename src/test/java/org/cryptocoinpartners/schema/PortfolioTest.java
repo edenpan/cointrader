@@ -84,7 +84,7 @@ public class PortfolioTest {
                 .getCount(),
             Long.toString(openOrder.getTime().getMillis()));
     System.out.println("fill1  " + openFill1);
-    portfolio.merge(openFill1);
+//    portfolio.merge(openFill1);
     Fill openFill2 =
         new Fill(
             openOrder,
@@ -103,7 +103,7 @@ public class PortfolioTest {
                 .getCount(),
             Long.toString(openOrder.getTime().getMillis()));
     System.out.println("fill2  " + openFill2);
-    portfolio.merge(openFill2);
+//    portfolio.merge(openFill2);
     Fill openFill3 =
         new Fill(
             openOrder,
@@ -122,6 +122,6 @@ public class PortfolioTest {
                 .getCount(),
             Long.toString(openOrder.getTime().getMillis()));
     System.out.println("fill3  " + openFill3);
-    portfolio.merge(openFill3);
+//    portfolio.merge(openFill3);
   }
 }
